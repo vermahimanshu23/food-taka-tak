@@ -1,0 +1,38 @@
+body{
+    background-image: url(images/mediterranean-cuisine-2378758_1920.jpg);
+}
+#services{
+    margin: 0px;
+    display: flex;
+    height: 720px;
+    padding-top: 102px;
+    
+}
+#services .box{
+    padding: 52px;
+    margin: 0px;
+    border-radius: 14px;
+    margin-bottom: 218px;
+    
+
+}
+#services .box img{
+    display: block;
+    height: 269px;
+    margin: auto;
+}
+
+.h-primary{
+        font-size: 67px;
+        text-align: center;
+        animation-name: example;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        padding-top: 150px;
+    }
+    @keyframes example {
+        from{    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        to{text-shadow: 0 0 20px #fff, 0 0 30px #fff64d, 0 0 40px #ffe74d, 0 0 50px #f3ff4d, 0 0 60px #d8ff4d, 0 0 70px #fcff4d, 0 0 80px #fff64d}
+        
+    }
